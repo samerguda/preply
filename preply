@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Preply </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3-1MmGsbkNuT785n_XCh__Atf5bVfhsqucgkRmdM0f2SGkRCJKYEt5XI&s=10">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.photo-grid {column-count:2;column-gap:16px}
+.photo-grid img {display:block;width:100%;margin-top:16px;opacity:0.8;cursor:pointer}
+.photo-grid img:hover {opacity:1}
+dialog {
+  border:0;
+  padding:0;
+  width:min(900px,90%);
+}
+dialog::backdrop {
+  background:rgba(0,0,0,0.85);
+}
+@media (max-width:600px) {
+  .photo-grid {column-count:1}
+}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-orange w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Belguim<br>Samer Alsaadni</b></h3>
+  </div>
+  <div class="w3-bar-block">
+   
+  
+    <a href=" https://programming-f19277.webflow.io/about   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >  Join the class         </a>
+    <a href=" https://samerguda.github.io/Arabic.course/Arabic.course   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" > Arabic Vocab           </a>
+    <a href=" https://samerguda.github.io/quran_hefz/quran_hefz.html   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" > Quran           </a>
+    <a href=" https://preply.com/ar/calendar   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >    My teaching Preply Account       </a>
+    <a href=" https://samerguda.github.io/Let-s5.Arbic/Let's5.Arbic.html   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >   Let's 5 Arabic        </a>
+    <a href=" https://arabic.ba/practice/reading/   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >   Reading        </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >       حروف الهجاء    </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+    <a href=" ####   " onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white" >           </a>
+
+    
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-orange w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-orange w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Universidade Europeia</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Universidade Europeia</b></h1>
+    <h1 class="w3-xxxlarge w3-text-brown"><b>Samer Alsaadni</b></h1>
+    <hr style="width:50px;border:5px solid rgb(237, 135, 2)" class="w3-round">
+  </div>
+  
+  <!-- Photo gallery (modal) -->
+  <div class="photo-grid">
+    <img src="https://www.europeia.pt/resources/media/images/green-campus-oriente.original.webp" onclick="onClick(this)" alt="Concrete meets bricks" width="700" height="578">
+    <img src="https://www.uc.pt/site/assets/files/1601292/channels4_profile.1250x0.webp" onclick="onClick(this)" alt="Light, white and tight Scandinavian design" width="900" height="500">
+    <img src="https://bordalo.observador.pt/v2/q:60/rs:fill:980/c:1600:901:nowe:0:88/plain/https://s3.observador.pt/wp-content/uploads/2024/05/07193819/gue-novo-campus-2.jpg" onclick="onClick(this)" alt="White walls with designer chairs" width="900" height="500">
+    <img src="https://www.studiesup.com/wp-content/uploads/2026/04/UEPortugal10_StudiesUP.jpg" onclick="onClick(this)" alt="Windows for the atrium" width="700" height="578">
+    <img src="https://www.studiesup.com/wp-content/uploads/2026/04/UE-Portugal_StudiesUP3.jpg" onclick="onClick(this)" alt="Bedroom and office in one space" width="900" height="500">
+    <img src="https://www.studiesup.com/wp-content/uploads/2026/04/UE-Portugal_StudiesUP4.jpg" onclick="onClick(this)" alt="Scandinavian design" width="900" height="500">
+  </div>
+
+  <!-- Image Dialog -->
+<dialog id="modal01" class="w3-black w3-animate-zoom">
+
+  <button
+  class="w3-button w3-black w3-xxlarge w3-display-topright"
+  commandfor="modal01"
+  command="close"
+  title="Close image">
+  ×
+  </button>
+
+  <div class="w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image" alt="">
+    <p id="caption" class="w3-large"></p>
+  </div>
+
+</dialog>
+
+<!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-brown"><b>Services.</b></h1>
+    <hr style="width:50px;border:5px solid rgb(237, 135, 2)" class="w3-round">
+    <p>We are an interior design service that focuses on what's best for your home and what's best for you!</p>
+    <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-brown"><b>Designers.</b></h1>
+    <hr style="width:50px;border:5px solid rgb(237, 135, 2)" class="w3-round">
+    <p>The best team in the world.</p>
+    <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p><b>Our designers are thoughtfully chosen</b>:</p>
+  </div>
+
+  <!-- The Team -->
+  <div class="w3-grid w3-grayscale" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px">
+    <div>
+      <div class="w3-light-grey">
+        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Samer Alsaadni</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="w3-light-grey">
+        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Jane Doe</h3>
+          <p class="w3-opacity">Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="w3-light-grey">
+        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Ross</h3>
+          <p class="w3-opacity">Architect</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Packages.</b></h1>
+    <hr style="width:50px;border:5px solid rgb(237, 135, 2)" class="w3-round">
+    <p>Some text about our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+  </div>
+
+  <div class="w3-grid" style="grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px">
+    <div>
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+        <li class="w3-padding-16">Floorplanning</li>
+        <li class="w3-padding-16">10 hours support</li>
+        <li class="w3-padding-16">Photography</li>
+        <li class="w3-padding-16">20% furniture discount</li>
+        <li class="w3-padding-16">Good deals</li>
+        <li class="w3-padding-16">
+          <h2>  199</h2>
+          <span class="w3-opacity">per room</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+        
+    <div>
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-orange w3-xlarge w3-padding-32">Pro</li>
+        <li class="w3-padding-16">Floorplanning</li>
+        <li class="w3-padding-16">50 hours support</li>
+        <li class="w3-padding-16">Photography</li>
+        <li class="w3-padding-16">50% furniture discount</li>
+        <li class="w3-padding-16">GREAT deals</li>
+        <li class="w3-padding-16">
+          <h2>  249</h2>
+          <span class="w3-opacity">per room</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-orange w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid rgb(237, 135, 2)" class="w3-round">
+    <p>Do you want us to style your home? Fill out the form and tell us the details. We love meeting new people!</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="email" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-orange w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-center w3-padding-32" style="margin-top:75px;padding-right:58px">
+<p>Powered by <a href="https://samerguda.github.io/MY-SOCIAL-NETWORKS-Samer-Alsaadni/my_connections/SamerAlsaadniportoflio.html#" title="W3.CSS" target="_blank" class="w3-hover-opacity">Samer Alsaadni</a></p></div>
+
+<script>
+const sidebar = document.getElementById("mySidebar");
+const overlay = document.getElementById("myOverlay");
+const imageDialog = document.getElementById("modal01");
+const dialogImage = document.getElementById("img01");
+const caption = document.getElementById("caption");
+
+function w3_open() {
+  sidebar.style.display = "block";
+  overlay.style.display = "block";
+}
+
+function w3_close() {
+  sidebar.style.display = "none";
+  overlay.style.display = "none";
+}
+
+function onClick(image) {
+  dialogImage.src = image.src;
+  dialogImage.alt = image.alt;
+  caption.textContent = image.alt;
+  imageDialog.showModal();
+}
+</script>
+
+</body>
+</html>
